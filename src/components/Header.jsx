@@ -16,13 +16,13 @@ export default function Header() {
                 <FaSearch className='text-slate-600' />
             </form>
             <ul className='flex gap-4'>
-                <Link to='/'>
+                <Link to='/about'>
                     <li className='hidden sm:inline text-slate-800 hover:underline'>About</li>
                 </Link>
-                <Link to='/'>
+                <Link to='/portfolio'>
                     <li className='hidden sm:inline text-slate-800 hover:underline'>Portfolio</li>
                 </Link>
-                <Link to='/'>
+                <Link to='/sign-in'>
                     <li className='text-slate-800 hover:underline'>Signin</li>
                 </Link>
             </ul>
